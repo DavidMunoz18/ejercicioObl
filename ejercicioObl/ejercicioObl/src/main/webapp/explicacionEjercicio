@@ -1,0 +1,15 @@
+caso 1:
+
+En caso uno declaramos dos variables var las cuales son variables a nivel global,
+y despues declaramos otras dos variables dentro de un if, donde una es let que es una variable local, por tanto sobreescribiria el valor asignado a la variable a pero solo dentro del if, es decir hasta los corchetes,
+sin embargo la segunda variable es de tipo global, por tanto no importa que este definida en el if , ya que va a sobreescribir la variable b en todos los casos.
+
+caso 2:
+
+En el caso dos, tenemos un bucle for en el cual hay declarada una variable la cual es i en 0, y esta mientras que sea menor a 10 se va a ir sumando 1 hasta llegar a 10,
+una vez que llega a 10, sale del bucle for y al estar la variable declarada de forma local y dentro de los parametros del for, esta solo va a estar disponible dentro del for
+y una vez que sale es como si nunca se hubiese declarado.
+
+caso3:
+En el caso 3 se declara una variable global con valor 5, y una variable local donde indica que se realize la suma de la variable anterior y el numero 10,
+y se declara una ultima variable la cual tiene valor 12, por ultimo se pide que se muestre por pantalla la suma de la variable x mas la variable y.
